@@ -1,0 +1,23 @@
+# Ignore data folder (if large)
+data/
+
+# Ignore models folder (if large)
+models/
+
+# Ignore logs and outputs
+outputs/
+
+# Ignore virtual environment folder
+retino/
+
+# Ignore any checkpoints or temp files
+*.ckpt
+*.h5
+*.pt
+*.log
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
